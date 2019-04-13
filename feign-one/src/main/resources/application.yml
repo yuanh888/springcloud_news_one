@@ -1,0 +1,13 @@
+
+server:
+  port: 8767
+
+spring:
+  application:
+    name: springcloud-feign
+
+eureka:
+  client:
+    service-url:
+      defalutZone: http://localhost:8088/eureka
+
